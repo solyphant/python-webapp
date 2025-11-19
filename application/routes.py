@@ -51,5 +51,5 @@ def hello():
     return render_template('hello.html', title='Hello')
 
 @app.route('/bye')
-def hello():
+def bye():
     return render_template('bye.html', title='Goodbye')
